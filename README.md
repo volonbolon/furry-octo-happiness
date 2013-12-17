@@ -19,9 +19,7 @@ The possible values for the notification type are:
 | --- | --- |
 | `UIAccessibilityScreenChangedNotification` | Should be posted when a new view appears that encompasses a major portion of the screen. |
 | `UIAccessibilityLayoutChangedNotification` | Should be posted when the layout of a screen changes, for example when an individual element appears or disappears. |
-| `UIAccessibilityAnnouncementNotification` | Should be posted when an announcement needs to be conveyed to VoiceOver. 
- VoiceOver will output the announcement string that is used as the argument.
- The argument is a NSString |
+| `UIAccessibilityAnnouncementNotification` | Should be posted when an announcement needs to be conveyed to VoiceOver. VoiceOver will output the announcement string that is used as the argument. The argument is a NSString |
 
 But we might also want to hear back from VoiceOver, for instance. In that case, the notifications are broadcasted trough NSNotificationCenter. To known when VoiceOver is done with the announcement, we need to listed for `UIAccessibilityAnnouncementDidFinishNotification` and then look at the user info of the notification. 
 
