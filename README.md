@@ -13,6 +13,17 @@ The protocol also define a few more attributes:
 ##Accessibility Notifications
 Most of the times, all you need is to configure the accessibility attributes. But sometimes, you also need to inform changes on the status of a view or a control. For that, we need to post notifications to let VoiceOver knows about the changes. The VoiceOver notifications use a special circuit, i.e., you should not use `NSNotificationCenter`, but the function `UIAccessibilityPostNotification` (and yes, it is a function). The function takes as a first parameter the kind of notification that you want to broadcast. The second parameter is the element we want voice over to focus. 
 
+The possible values for the notification type are: 
+
+| Value | Description |
+| --- | --- |
+| `UIAccessibilityScreenChangedNotification` | Should be posted when a new view appears that encompasses a major portion of the screen. |
+| `UIAccessibilityLayoutChangedNotification` | Should be posted when the layout of a screen changes, for example when an individual
+ element appears or disappears. |
+| `UIAccessibilityAnnouncementNotification` | Should be posted when an announcement needs to be conveyed to VoiceOver. 
+ VoiceOver will output the announcement string that is used as the argument.
+ The argument is a NSString |
+
 But we might also want to hear back from VoiceOver, for instance. In that case, the notifications are broadcasted trough NSNotificationCenter. To known when VoiceOver is done with the announcement, we need to listed for `UIAccessibilityAnnouncementDidFinishNotification` and then look at the user info of the notification. 
 
 ## No UIKit
@@ -20,7 +31,7 @@ UIKit makes almost too easy to implement accessibility. But what happens if you 
 
 `UIAccesibilityElement`s are created with `-initWithAccessibilityContainer:`, and the container is the view that going to do the actual drawing. The Accessibility Element, obviously, can be configured with accessibility labels, hints, and traits. 
 
-The [`UIAccessibilityContainer`](https://developer.apple.com/library/ios/documentation/uikit/reference/UIAccessibilityContainer_Protocol/Introduction/Introduction.html) informal protocol let `UIView`s instance expose the accessibility elements they contains. The protocol is composed by three methods:  
+The [`UIAccessibilityContainer`](https://developer.apple.com/library/ios/documentation/uikit/reference/UIAccessibilityContainer_Protocol/Introduction/Introduction.html) informal protocol let `UIView`s instance expose the accessibility elements they contains. The protocol is composed by three methods: 
 
 	– accessibilityElementCount
 	– accessibilityElementAtIndex:
