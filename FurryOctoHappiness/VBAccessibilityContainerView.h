@@ -1,5 +1,5 @@
 //
-//  VBSecondViewController.h
+//  VBAccessibilityContainerView.h
 //  FurryOctoHappiness
 //
 //  Created by Ariel Rodriguez on 16/12/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VBSecondViewController : UIViewController
+@interface VBAccessibilityContainerView : UIView
 
 @end

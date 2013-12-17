@@ -1,5 +1,5 @@
 //
-//  VBFirstViewController.h
+//  VBAccessibilityContainerViewController.h
 //  FurryOctoHappiness
 //
 //  Created by Ariel Rodriguez on 16/12/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface VBFirstViewController : UIViewController
+@interface VBAccessibilityContainerViewController : UIViewController
 
 @end
