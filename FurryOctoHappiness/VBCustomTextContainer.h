@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface VBCustomTextContainer : UIView
-
+@property (strong) NSAttributedString *string;
 @end

@@ -3,37 +3,37 @@
 "0Jx-Db-IFy.normalTitle" = "Default Button";
 
 /* Class = "IBUIViewController"; title = "First"; ObjectID = "CZ4-MO-1fc"; */
-"CZ4-MO-1fc.title" = "First";
+"CZ4-MO-1fc.title" = "Primero";
 
 /* Class = "IBUIButton"; accessibilityHint = "Facilisis conceptam eu mel, audiam"; ObjectID = "GnM-mg-STV"; */
-"GnM-mg-STV.accessibilityHint" = "Facilisis conceptam eu mel, audiam";
+"GnM-mg-STV.accessibilityHint" = "[ES] Facilisis conceptam eu mel, audiam";
 
 /* Class = "IBUIButton"; accessibilityLabel = "Rebum putant veritus id sit"; ObjectID = "GnM-mg-STV"; */
 "GnM-mg-STV.accessibilityLabel" = "Rebum putant veritus id sit";
 
 /* Class = "IBUIButton"; normalTitle = "Customized in IB"; ObjectID = "GnM-mg-STV"; */
-"GnM-mg-STV.normalTitle" = "Customized in IB";
+"GnM-mg-STV.normalTitle" = "Personalizado IB";
 
 /* Class = "IBUIViewController"; title = "Second"; ObjectID = "QUy-BD-bpt"; */
-"QUy-BD-bpt.title" = "Second";
+"QUy-BD-bpt.title" = "Segundo";
 
 /* Class = "IBUINavigationItem"; title = "Writers"; ObjectID = "V0G-e7-IgM"; */
-"V0G-e7-IgM.title" = "Writers";
+"V0G-e7-IgM.title" = "Escritores";
 
 /* Class = "IBUITabBarItem"; title = "Container"; ObjectID = "Z7h-1E-pvt"; */
-"Z7h-1E-pvt.title" = "Container";
+"Z7h-1E-pvt.title" = "Contenedor";
 
 /* Class = "IBUILabel"; text = "Title"; ObjectID = "bas-Qb-hZf"; */
-"bas-Qb-hZf.text" = "Title";
+"bas-Qb-hZf.text" = "Título";
 
 /* Class = "IBUITabBarItem"; title = "Text"; ObjectID = "kWN-CI-Lox"; */
-"kWN-CI-Lox.title" = "Text";
+"kWN-CI-Lox.title" = "Texto";
 
 /* Class = "IBUITabBarItem"; title = "Buttons"; ObjectID = "u1e-5L-l1D"; */
-"u1e-5L-l1D.title" = "Buttons";
+"u1e-5L-l1D.title" = "Botones";
 
 /* Class = "IBUITabBarItem"; title = "Table"; ObjectID = "wcp-Ll-RIo"; */
-"wcp-Ll-RIo.title" = "Table";
+"wcp-Ll-RIo.title" = "Tabla";
 
 /* Class = "IBUIButton"; normalTitle = "Customized with Code"; ObjectID = "yFB-2z-hPY"; */
-"yFB-2z-hPY.normalTitle" = "Customized with Code";
+"yFB-2z-hPY.normalTitle" = "Personalizado en código";

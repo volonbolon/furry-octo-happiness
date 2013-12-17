@@ -9,5 +9,20 @@
 #import "VBOcthoItem.h"
 
 @implementation VBOcthoItem
-
+- (id)initWithTitle:(NSString *)title
+               path:(UIBezierPath *)path
+{
+    
+    self = [super init];
+    
+    if ( self != nil) {
+        
+        _title = title;
+        _path = path;
+        
+    }
+    
+    return self;
+    
+}
 @end

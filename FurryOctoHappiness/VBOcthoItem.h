@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface VBOcthoItem : NSObject
+- (id)initWithTitle:(NSString *)title
+               path:(UIBezierPath *)path;
 
+@property (strong, readonly) NSString *title;
+@property (strong, readonly) UIBezierPath *path;
 @end

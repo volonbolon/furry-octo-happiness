@@ -7,25 +7,43 @@
 //
 
 #import "VBCustomTextContainer.h"
+#import <CoreText/CoreText.h>
 
 @implementation VBCustomTextContainer
 
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
-    }
-    return self;
+- (BOOL)isAccessibilityElement {
+    
+    return YES;
+    
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
+- (NSString *)accessibilityLabel {
+    
+    return [[self string] string];
+    
+}
+
 - (void)drawRect:(CGRect)rect
 {
-    // Drawing code
+    
+    CGContextRef ctx = UIGraphicsGetCurrentContext();
+    
+    CGContextSetTextMatrix(ctx, CGAffineTransformIdentity);
+    CGContextTranslateCTM(ctx, 0, self.bounds.size.height);
+    CGContextScaleCTM(ctx, 1.0, -1.0);
+    
+    CGMutablePathRef path = CGPathCreateMutable();
+    CGPathAddRect(path, NULL, rect);
+    
+    CTFramesetterRef framesetter = CTFramesetterCreateWithAttributedString((CFAttributedStringRef)[self string]);
+    CTFrameRef frame = CTFramesetterCreateFrame(framesetter, CFRangeMake(0, [[self string] length]), path, NULL);
+    
+    CFRelease(framesetter);
+    CFRelease(path);
+    
+    CTFrameDraw(frame, ctx);
+    CFRelease(frame);
+    
 }
-*/
 
 @end

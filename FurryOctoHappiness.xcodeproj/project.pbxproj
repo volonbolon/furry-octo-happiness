@@ -14,14 +14,21 @@
 		792CA60B185FA82000DF119C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 792CA60A185FA82000DF119C /* main.m */; };
 		792CA60F185FA82000DF119C /* VBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 792CA60E185FA82000DF119C /* VBAppDelegate.m */; };
 		792CA612185FA82000DF119C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792CA610185FA82000DF119C /* Main.storyboard */; };
-		792CA615185FA82000DF119C /* VBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792CA614185FA82000DF119C /* VBFirstViewController.m */; };
-		792CA618185FA82000DF119C /* VBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792CA617185FA82000DF119C /* VBSecondViewController.m */; };
 		792CA61A185FA82100DF119C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792CA619185FA82100DF119C /* Images.xcassets */; };
 		792CA621185FA82100DF119C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792CA620185FA82100DF119C /* XCTest.framework */; };
 		792CA622185FA82100DF119C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792CA5FE185FA82000DF119C /* Foundation.framework */; };
 		792CA623185FA82100DF119C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792CA602185FA82000DF119C /* UIKit.framework */; };
 		792CA62B185FA82100DF119C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 792CA629185FA82100DF119C /* InfoPlist.strings */; };
 		792CA62D185FA82100DF119C /* FurryOctoHappinessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 792CA62C185FA82100DF119C /* FurryOctoHappinessTests.m */; };
+		792CA638185FA8D800DF119C /* VBAccessibilityContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792CA637185FA8D800DF119C /* VBAccessibilityContainerViewController.m */; };
+		792CA63B185FA91200DF119C /* VBAccessibilityContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 792CA63A185FA91200DF119C /* VBAccessibilityContainerView.m */; };
+		792CA63E185FAAD900DF119C /* VBOcthoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 792CA63D185FAAD900DF119C /* VBOcthoItem.m */; };
+		792CA641185FBF6E00DF119C /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 792CA640185FBF6E00DF119C /* UIColor+RandomColor.m */; };
+		792CA644185FC18F00DF119C /* VBCustomTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 792CA643185FC18F00DF119C /* VBCustomTextContainer.m */; };
+		792CA646185FC2E000DF119C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792CA645185FC2E000DF119C /* CoreText.framework */; };
+		792CA649185FC38300DF119C /* VBCustomTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792CA648185FC38300DF119C /* VBCustomTextViewController.m */; };
+		792CA64C185FD92F00DF119C /* VBButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792CA64B185FD92F00DF119C /* VBButtonsViewController.m */; };
+		792CA64F185FDC4300DF119C /* VBWritersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792CA64E185FDC4300DF119C /* VBWritersViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +53,29 @@
 		792CA60D185FA82000DF119C /* VBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBAppDelegate.h; sourceTree = "<group>"; };
 		792CA60E185FA82000DF119C /* VBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBAppDelegate.m; sourceTree = "<group>"; };
 		792CA611185FA82000DF119C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		792CA613185FA82000DF119C /* VBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBFirstViewController.h; sourceTree = "<group>"; };
-		792CA614185FA82000DF119C /* VBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBFirstViewController.m; sourceTree = "<group>"; };
-		792CA616185FA82000DF119C /* VBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBSecondViewController.h; sourceTree = "<group>"; };
-		792CA617185FA82000DF119C /* VBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBSecondViewController.m; sourceTree = "<group>"; };
 		792CA619185FA82100DF119C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		792CA61F185FA82100DF119C /* FurryOctoHappinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FurryOctoHappinessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		792CA620185FA82100DF119C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		792CA628185FA82100DF119C /* FurryOctoHappinessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FurryOctoHappinessTests-Info.plist"; sourceTree = "<group>"; };
 		792CA62A185FA82100DF119C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		792CA62C185FA82100DF119C /* FurryOctoHappinessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FurryOctoHappinessTests.m; sourceTree = "<group>"; };
+		792CA636185FA8D800DF119C /* VBAccessibilityContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBAccessibilityContainerViewController.h; sourceTree = "<group>"; };
+		792CA637185FA8D800DF119C /* VBAccessibilityContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBAccessibilityContainerViewController.m; sourceTree = "<group>"; };
+		792CA639185FA91200DF119C /* VBAccessibilityContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBAccessibilityContainerView.h; sourceTree = "<group>"; };
+		792CA63A185FA91200DF119C /* VBAccessibilityContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBAccessibilityContainerView.m; sourceTree = "<group>"; };
+		792CA63C185FAAD900DF119C /* VBOcthoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBOcthoItem.h; sourceTree = "<group>"; };
+		792CA63D185FAAD900DF119C /* VBOcthoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBOcthoItem.m; sourceTree = "<group>"; };
+		792CA63F185FBF6E00DF119C /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		792CA640185FBF6E00DF119C /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
+		792CA642185FC18F00DF119C /* VBCustomTextContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBCustomTextContainer.h; sourceTree = "<group>"; };
+		792CA643185FC18F00DF119C /* VBCustomTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBCustomTextContainer.m; sourceTree = "<group>"; };
+		792CA645185FC2E000DF119C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		792CA647185FC38300DF119C /* VBCustomTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBCustomTextViewController.h; sourceTree = "<group>"; };
+		792CA648185FC38300DF119C /* VBCustomTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBCustomTextViewController.m; sourceTree = "<group>"; };
+		792CA64A185FD92F00DF119C /* VBButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBButtonsViewController.h; sourceTree = "<group>"; };
+		792CA64B185FD92F00DF119C /* VBButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBButtonsViewController.m; sourceTree = "<group>"; };
+		792CA64D185FDC4300DF119C /* VBWritersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBWritersViewController.h; sourceTree = "<group>"; };
+		792CA64E185FDC4300DF119C /* VBWritersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBWritersViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792CA646185FC2E000DF119C /* CoreText.framework in Frameworks */,
 				792CA601185FA82000DF119C /* CoreGraphics.framework in Frameworks */,
 				792CA603185FA82000DF119C /* UIKit.framework in Frameworks */,
 				792CA5FF185FA82000DF119C /* Foundation.framework in Frameworks */,
@@ -104,6 +125,7 @@
 		792CA5FD185FA82000DF119C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				792CA645185FC2E000DF119C /* CoreText.framework */,
 				792CA5FE185FA82000DF119C /* Foundation.framework */,
 				792CA600185FA82000DF119C /* CoreGraphics.framework */,
 				792CA602185FA82000DF119C /* UIKit.framework */,
@@ -118,12 +140,24 @@
 				792CA60D185FA82000DF119C /* VBAppDelegate.h */,
 				792CA60E185FA82000DF119C /* VBAppDelegate.m */,
 				792CA610185FA82000DF119C /* Main.storyboard */,
-				792CA613185FA82000DF119C /* VBFirstViewController.h */,
-				792CA614185FA82000DF119C /* VBFirstViewController.m */,
-				792CA616185FA82000DF119C /* VBSecondViewController.h */,
-				792CA617185FA82000DF119C /* VBSecondViewController.m */,
 				792CA619185FA82100DF119C /* Images.xcassets */,
 				792CA605185FA82000DF119C /* Supporting Files */,
+				792CA636185FA8D800DF119C /* VBAccessibilityContainerViewController.h */,
+				792CA637185FA8D800DF119C /* VBAccessibilityContainerViewController.m */,
+				792CA639185FA91200DF119C /* VBAccessibilityContainerView.h */,
+				792CA63A185FA91200DF119C /* VBAccessibilityContainerView.m */,
+				792CA63C185FAAD900DF119C /* VBOcthoItem.h */,
+				792CA63D185FAAD900DF119C /* VBOcthoItem.m */,
+				792CA63F185FBF6E00DF119C /* UIColor+RandomColor.h */,
+				792CA640185FBF6E00DF119C /* UIColor+RandomColor.m */,
+				792CA642185FC18F00DF119C /* VBCustomTextContainer.h */,
+				792CA643185FC18F00DF119C /* VBCustomTextContainer.m */,
+				792CA647185FC38300DF119C /* VBCustomTextViewController.h */,
+				792CA648185FC38300DF119C /* VBCustomTextViewController.m */,
+				792CA64A185FD92F00DF119C /* VBButtonsViewController.h */,
+				792CA64B185FD92F00DF119C /* VBButtonsViewController.m */,
+				792CA64D185FDC4300DF119C /* VBWritersViewController.h */,
+				792CA64E185FDC4300DF119C /* VBWritersViewController.m */,
 			);
 			path = FurryOctoHappiness;
 			sourceTree = "<group>";
@@ -217,6 +251,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 792CA5F2185FA82000DF119C;
 			productRefGroup = 792CA5FC185FA82000DF119C /* Products */;
@@ -255,10 +290,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792CA641185FBF6E00DF119C /* UIColor+RandomColor.m in Sources */,
+				792CA638185FA8D800DF119C /* VBAccessibilityContainerViewController.m in Sources */,
+				792CA64C185FD92F00DF119C /* VBButtonsViewController.m in Sources */,
+				792CA64F185FDC4300DF119C /* VBWritersViewController.m in Sources */,
+				792CA63E185FAAD900DF119C /* VBOcthoItem.m in Sources */,
 				792CA60F185FA82000DF119C /* VBAppDelegate.m in Sources */,
-				792CA615185FA82000DF119C /* VBFirstViewController.m in Sources */,
-				792CA618185FA82000DF119C /* VBSecondViewController.m in Sources */,
+				792CA644185FC18F00DF119C /* VBCustomTextContainer.m in Sources */,
 				792CA60B185FA82000DF119C /* main.m in Sources */,
+				792CA649185FC38300DF119C /* VBCustomTextViewController.m in Sources */,
+				792CA63B185FA91200DF119C /* VBAccessibilityContainerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +508,7 @@
 				792CA632185FA82100DF119C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		792CA633185FA82100DF119C /* Build configuration list for PBXNativeTarget "FurryOctoHappinessTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +517,7 @@
 				792CA635185FA82100DF119C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
