@@ -18,8 +18,7 @@ The possible values for the notification type are:
 | Value | Description |
 | --- | --- |
 | `UIAccessibilityScreenChangedNotification` | Should be posted when a new view appears that encompasses a major portion of the screen. |
-| `UIAccessibilityLayoutChangedNotification` | Should be posted when the layout of a screen changes, for example when an individual
- element appears or disappears. |
+| `UIAccessibilityLayoutChangedNotification` | Should be posted when the layout of a screen changes, for example when an individual element appears or disappears. |
 | `UIAccessibilityAnnouncementNotification` | Should be posted when an announcement needs to be conveyed to VoiceOver. 
  VoiceOver will output the announcement string that is used as the argument.
  The argument is a NSString |
